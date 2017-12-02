@@ -1,0 +1,7 @@
+*input.txt
+main.go
+*.jar
+META-INF
+*.class
+.gradle
+build
