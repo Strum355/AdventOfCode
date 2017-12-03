@@ -5,3 +5,5 @@ META-INF
 *.class
 .gradle
 build
+build.fish
+out

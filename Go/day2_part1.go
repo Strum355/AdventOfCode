@@ -1,10 +1,10 @@
 package main
 
 import (
-	"strconv"
+	"encoding/csv"
 	"fmt"
 	"os"
-	"encoding/csv"
+	"strconv"
 )
 
 func day2Part1() {
@@ -21,7 +21,7 @@ func day2Part1() {
 		intRow := toInt(row)
 		min := min(intRow)
 		max := max(intRow)
-		total += max-min
+		total += max - min
 	}
 	fmt.Println(total)
 }
@@ -30,7 +30,7 @@ func toInt(s []string) []int {
 	i := make([]int, len(s))
 	for j, num := range s {
 		i[j] = func(s string) int {
-			k,_ := strconv.Atoi(s)
+			k, _ := strconv.Atoi(s)
 			return k
 		}(num)
 	}

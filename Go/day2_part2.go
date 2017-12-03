@@ -1,10 +1,10 @@
-package main 
+package main
 
 import (
-	"fmt"
 	"encoding/csv"
-	"os"
 	"errors"
+	"fmt"
+	"os"
 )
 
 func day2Part2() {
@@ -32,10 +32,10 @@ func day2Part2() {
 func findDivisible(i int, s []int) (int, error) {
 	for _, num := range s {
 		if i%num == 0 {
-			return i/num, nil
+			return i / num, nil
 		}
 		if num%i == 0 {
-			return num/i, nil
+			return num / i, nil
 		}
 	}
 	return 0, errors.New("none found")
