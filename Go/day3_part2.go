@@ -76,7 +76,3 @@ func getSums(l location, m map[string]int) (total int) {
 	total += getValue(m, location{l.x - 1, l.y - 1})
 	return
 }
-
-func main() {
-	day3Part2()
-}
