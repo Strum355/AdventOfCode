@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ce9c50-d352-437b-a686-0b245e6178bd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/day6_part1.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/day6_part2.kt" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1_part1.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1_part2.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2_part1.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2_part2.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5_part1.kt" afterPath="$PROJECT_DIR$/src/day5_part1.kt" />
+      <change beforePath="$PROJECT_DIR$/day5_part2.kt" afterPath="$PROJECT_DIR$/src/day5_part2.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -194,6 +188,11 @@
     <property name="project.structure.proportion" value="0.12180269" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/opencsv-4.1.jar!/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
