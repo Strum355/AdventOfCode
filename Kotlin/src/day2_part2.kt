@@ -1,7 +1,6 @@
 import com.opencsv.CSVParserBuilder
 import com.opencsv.CSVReaderBuilder
 import java.io.*
-import java.util.*
 
 fun main(args: Array<String>) {
     val parser = CSVParserBuilder().withSeparator('\t').withIgnoreQuotations(true).build()
@@ -19,6 +18,7 @@ fun main(args: Array<String>) {
 }
 
 fun findDivisible(i: Int, s: Array<Int>): Int? {
+    
     s.forEach{
         if(i%it == 0){
             return i/it
