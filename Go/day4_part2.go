@@ -1,10 +1,10 @@
-package main 
+package main
 
 import (
-	"strings"
-	"io/ioutil"
 	"fmt"
+	"io/ioutil"
 	"sort"
+	"strings"
 )
 
 func day4Part2() {

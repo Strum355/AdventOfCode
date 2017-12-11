@@ -11,7 +11,7 @@ func day1Part2() {
 	total := 0
 	for i, curr := range s {
 		if curr == rune(s[(i+len(s)/2)%len(s)]) {
-			total += int(curr - '0')			
+			total += int(curr - '0')
 		}
 	}
 	fmt.Println(total)
